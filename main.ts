@@ -35,6 +35,6 @@ let time = timeEnd - timeStart
  * Press RESET to time another pulse
  */
 basic.forever(function () {
-    basic.showNumber(time)
+    basic.showNumber(time / 1000)
     basic.pause(200)
 })
