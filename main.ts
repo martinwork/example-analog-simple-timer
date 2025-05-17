@@ -17,8 +17,9 @@
  */
 let pin = AnalogPin.P0
 let threshold = 800
+images.iconImage(IconNames.No).showImage(0, 0)
 while (pins.analogReadPin(pin) < threshold) {
-    images.iconImage(IconNames.No).showImage(0, 0)
+	
 }
 images.iconImage(IconNames.Square).showImage(0)
 while (pins.analogReadPin(pin) >= threshold) {
