@@ -35,6 +35,7 @@ while (pins.analogReadPin(pin) < threshold) {
 let timeEnd = input.runningTimeMicros()
 let time = timeEnd - timeStart
 basic.forever(function () {
+    basic.clearScreen()
     basic.showNumber(time / 1000)
     basic.pause(200)
 })
