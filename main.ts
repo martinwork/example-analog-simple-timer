@@ -1,6 +1,8 @@
 /**
  * To time a low pulse...
  * 
+ * Press RESET to start!
+ * 
  * Wait for high
  * 
  * Wait for low
